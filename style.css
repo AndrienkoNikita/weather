@@ -34,6 +34,7 @@ body {
 }
 
 .search input {
+	width: 100%;
 	border: 0;
 	outline: 0;
 	background: #ebfffc;
@@ -114,7 +115,7 @@ body {
 }
 
 /* Медиа-запросы для мобильных устройств */
-@media (max-width: 580px) {
+@media (max-width: 480px) {
 	.card {
 		padding: 25px;
 		margin: 20px auto;
@@ -161,3 +162,5 @@ body {
 		font-size: 16px;
 	}
 }
+
+@media (max-width: 480px);
